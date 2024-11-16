@@ -20,7 +20,7 @@ export async function checkTokenBalance(walletAddress: string, tokenAddress: str
     const balance = tokenAccount.account.data.parsed.info.tokenAmount.uiAmount;
     return balance;
   } catch (error) {
-    console.error("Error checking EPIK balance:", error);
+    console.error("Error checking token balance:", error);
     return 0;
   }
 }

@@ -11,8 +11,7 @@ const solanaConnectors = toSolanaWalletConnectors({
 export default function Providers({ children }: { children: React.ReactNode }) {
   return (
     <PrivyProvider
-      // appId={process.env.NEXT_PUBLIC_PRIVY_APP_ID!}
-      appId="clra3wyj700lslb0frokrj261"
+      appId={process.env.NEXT_PUBLIC_PRIVY_APP_ID!}
       config={{
         embeddedWallets: {
           createOnLogin: "all-users",
