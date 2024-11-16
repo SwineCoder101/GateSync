@@ -3,10 +3,11 @@ import React, { useEffect, useState } from "react";
 import { usePrivy, useLinkAccount, useSolanaWallets } from "@privy-io/react-auth";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { toast } from "sonner";
-import { checkEpikBalance } from "../utils";
 import { Header } from "./Header";
 import { LoginCard } from "./LoginCard";
 import { LoadingState, AddWalletCard, WalletList } from "./WalletComponents";
+import { checkTokenBalance } from "@/utils/utils";
+import { BONK_TOKEN } from "@/config/TestTokens";
 
 export function WalletManager() {
   // To fetch the registred users
@@ -33,7 +34,7 @@ export function WalletManager() {
         setIsConnecting(false);
 
         try {
-          const balance = await checkEpikBalance(wallets[0].address);
+          const balance = await checkTokenBalance(wallets[0].address, BONK_TOKEN.mockAddress);
           // if (balance < 1) {
           //   setError("You need at least 1 $EPIK token to get access");
           //   return;
