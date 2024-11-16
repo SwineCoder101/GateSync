@@ -14,8 +14,8 @@ import {
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
 import { Loader2, Plus, Wallet, Key, Unlink } from "lucide-react";
-import { getChainIcon } from "../utils";
 import { User, WalletWithMetadata } from "@privy-io/react-auth";
+import { getChainIcon } from "@/utils/utils";
 
 export interface WalletListProps {
   wallets: WalletWithMetadata[];
