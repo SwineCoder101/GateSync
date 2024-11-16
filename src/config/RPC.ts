@@ -1,0 +1,1 @@
+export const SOLANA_DEVNET ='https://api.devnet.solana.com';

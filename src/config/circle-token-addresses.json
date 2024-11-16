@@ -1,0 +1,17 @@
+{
+    "USDC":{
+      "PolygonPoS":"0x41e94eb019c0762f9bfcf9fb1e58725bfb0e7582",
+      "SolanaDevnet":"4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU",
+      "BaseSepolia":"0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+      "CeloAlfajores":"0x2F25deB3848C207fc8E0c34035B3Ba7fC157602B",
+      "EthereumSepolia":"0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+      "HederaTestnet":"0.0.429274",
+      "ArbitrumSepolia":"0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d",
+      "UnichainSepolia":"0x31d0220469e10c4E71834a79b1f276d740d3768F"
+    },
+    "EURC":{
+      "EthereumSepolia":"0x08210F9170F89Ab7658F0B5E3fF39b0E03C594D4",
+      "BaseSepolia":"0x808456652fdb597867f38412077A9182bf77359F",
+      "SolanaDevnet":"HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr"
+    }
+  }

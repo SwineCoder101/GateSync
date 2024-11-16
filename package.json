@@ -31,6 +31,7 @@
     "@usecapsule/react-sdk": "^4.7.0",
     "class-variance-authority": "^0.7.0",
     "daisyui": "^4.12.10",
+    "ethers": "^6.13.4",
     "jotai": "^2.9.1",
     "lucide-react": "^0.460.0",
     "react": "18.3.1",
@@ -38,7 +39,8 @@
     "react-hot-toast": "^2.4.1",
     "react-query": "^3.39.3",
     "sonner": "^1.7.0",
-    "tailwind-merge": "^2.5.4"
+    "tailwind-merge": "^2.5.4",
+    "viem": "^2.21.45"
   },
   "devDependencies": {
     "@types/bn.js": "^5.1.0",
