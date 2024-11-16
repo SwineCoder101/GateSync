@@ -14,7 +14,7 @@ export function LoginCard({ onInitialConnect, isChecking, error }: LoginCardProp
     <div className="w-full max-w-md mx-auto">
       <Card className="backdrop-blur-sm bg-white/50 shadow-xl border-opacity-50">
         <CardHeader className="space-y-1">
-          <CardTitle className="text-2xl font-bold">Welcome to EPIK Wallet</CardTitle>
+          <CardTitle className="text-2xl font-bold">Welcome to Gate Sync </CardTitle>
           <CardDescription className="text-base">Connect your wallet to continue</CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
