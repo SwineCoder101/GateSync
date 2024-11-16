@@ -13,7 +13,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="relative">
             <div className="relative">
-              <WalletManager />
+              {/* <WalletManager /> */}
             </div>
           </div>
         </div>
