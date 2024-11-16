@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@coral-xyz/anchor": "^0.30.1",
+    "@privy-io/react-auth": "^1.94.2",
     "@solana/spl-token": "^0.4.8",
     "@solana/wallet-adapter-base": "^0.9.23",
     "@solana/wallet-adapter-react": "^0.15.35",
@@ -27,7 +28,8 @@
     "lucide-react": "^0.460.0",
     "react": "^18",
     "react-dom": "^18",
-    "react-hot-toast": "^2.4.1"
+    "react-hot-toast": "^2.4.1",
+    "sonner": "^1.7.0"
   },
   "devDependencies": {
     "@types/bn.js": "^5.1.0",

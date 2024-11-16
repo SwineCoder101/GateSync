@@ -16,7 +16,6 @@ export function Header({ onLogout }: HeaderProps) {
         </div>
         <div className="flex space-x-2">
           <Button
-            variant="secondary"
             onClick={onLogout}
             className="bg-white/10 hover:bg-white/20 text-white border-white/20"
           >
