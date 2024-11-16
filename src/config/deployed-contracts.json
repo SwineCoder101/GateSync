@@ -1,8 +1,10 @@
 {
     "neonevm-devnet" :{
-        "WalletRegistry" : "0x137f6AD66a03B03674625cD82cb24e24bEa7312d"
+        "WalletRegistry" : "0x137f6AD66a03B03674625cD82cb24e24bEa7312d",
+        "erc20" : "0xF6b17787154C418d5773Ea22Afc87A95CAA3e957"
     },
     "polygon-amoy": {
         "WalletRegistry" : "0xF11Ca8162aD013dD4DD64b2c761269FB00ad114F"
     }
+
 }
