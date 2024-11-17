@@ -8,6 +8,7 @@ import { LoginCard } from "./LoginCard";
 import { LoadingState, AddWalletCard, WalletList } from "./WalletComponents";
 import { checkTokenBalance } from "@/utils/utils";
 import { BONK_TOKEN } from "@/config/TestTokens";
+import SearchBalance from "../ui/search-balance";
 
 export function WalletManager() {
   // To fetch the registred users
@@ -143,6 +144,7 @@ export function WalletManager() {
           />
         </CardContent>
       </Card>
+      <SearchBalance />
     </div>
   );
 }
